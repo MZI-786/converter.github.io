@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Feet into Inches</title>
+<link rel="stylesheet" href="unit converter.css">
+</head>
+<body>
+<div id="headdiv">
+<h1 id="heading">UNIT CONVERTER</h1>
+</div>
+<div id="seconddiv">
+<h1>
+Feet to Inches conversion
+</h1>
+<form>
+<table>
+
+<tr>
+<td>
+<label for="x">Enter Feet:</label>
+</td>
+<td class="math">
+<input type="number" min="0" id="ft" name="x" class="intext" >
+</td>
+<td class="mathsymbol">ft</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td ><button type="button" onclick="myFunctions()"><img src="convert.png">Convert</button>
+<button type="reset"><img src="cross.png">Reset</button>
+<button type="button" onclick="location.href='inches to feet.html'"><img src="retweet.png">Swap</button>
+</td>
+</tr>
+<tr>
+<td>Inches result:</td>
+<td  class="math">
+<input type="text" name="y" id="inch"  class="outtext" readonly></td>
+<td class="mathsymbol">in</td>
+</tr>
+<tr>
+<td>Feet+Inches result:</td>
+<td  class="math">
+<input type="text" name="f+i" id="y2"  class="outtext" readonly></td>
+<td class="mathsymbol">"</td>
+</tr>
+<tr>
+<td>Calculation:</td>
+<td><textarea name="TA" id="textarea" rows="5" cols="52" readonly class="outtext1"></textarea></td>
+<td>&nbsp;</td>
+</tr>
+
+</table>
+</form>
+<p>
+<a href="inches to feet.html">Inches to Feet &#9658;</a>
+</p>
+<h2>How to convert Feet into Inches</h2>
+<p>1 foot is equal to 12 inches:</p>
+	<p class="math">1ft = 12in</p>
+	<p>The distance <em>d</em> in inches (in) is equal to the distance <i>d</i> in 
+	feet (ft) times 12:</p>
+	<p class="math"><em>d</em><sub>(in)</sub> = <em>d</em><sub>(ft)</sub> x12</p>
+	<h4>Example</h4>
+	<p>Convert 2 feet to inches:</p>
+	<p class="math"><em>d</em><sub>(in)</sub> = 2ft x 12 = 24in</p>
+	<h2><a id="table"></a>Feet to inches conversion table</h2>
+	<table class="ntable">
+	<thead>
+		<tr>
+			<th>Feet (ft)</th>
+			<th>Inches (in)</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>0.01 ft</td>
+			<td>0.12 in</td>
+		</tr>
+		<tr>
+			<td>0.1 ft</td>
+			<td>1.2 in</td>
+		</tr>
+		<tr>
+			<td>0.2 ft</td>
+			<td>2.4 in</td>
+		</tr>
+		<tr>
+			<td>0.3 ft</td>
+			<td>3.6 in</td>
+		</tr>
+		<tr>
+			<td>0.4 ft</td>
+			<td>4.8 in</td>
+		</tr>
+		<tr>
+			<td>0.5 ft</td>
+			<td>6.0 in</td>
+		</tr>
+		<tr>
+			<td>0.6 ft</td>
+			<td>7.2 in</td>
+		</tr>
+		<tr>
+			<td>0.7 ft</td>
+			<td>8.4 in</td>
+		</tr>
+		<tr>
+			<td>0.8 ft</td>
+			<td>9.6 in</td>
+		</tr>
+		<tr>
+			<td>0.9 ft</td>
+			<td>10.8 in</td>
+		</tr>
+		<tr>
+			<td>1 ft</td>
+			<td>12 in</td>
+		</tr>
+		<tr>
+			<td>2 ft</td>
+			<td>24 in</td>
+		</tr>
+		<tr>
+			<td>3 ft</td>
+			<td>36 in</td>
+		</tr>
+		<tr>
+			<td>4 ft</td>
+			<td>48 in</td>
+		</tr>
+		<tr>
+			<td>5 ft</td>
+			<td>60 in</td>
+		</tr>
+		<tr>
+			<td>6 ft</td>
+			<td>72 in</td>
+		</tr>
+		<tr>
+			<td>7 ft</td>
+			<td>84 in</td>
+		</tr>
+		<tr>
+			<td>8 ft</td>
+			<td>96 in</td>
+		</tr>
+		<tr>
+			<td>9 ft</td>
+			<td>108 in</td>
+		</tr>
+		<tr>
+			<td>10 ft</td>
+			<td>120 in</td>
+		</tr>
+		<tr>
+			<td>100 ft</td>
+			<td>1200 in</td>
+		</tr>
+	</tbody>
+	</table>
+<p>&nbsp;</p>
+<p>
+<a href="inches to feet.html">Inches to Feet &#9658;</a>
+</p>
+<br>
+</div>
+<div id="sidediv">
+<h4 id="sidedivheadings">CONVERSION</h4>
+<a href="mile into km.html" id="links"target="_blank">Miles to km conversion</a><hr class="dash" />
+<a href="unit converter.html" id="links"target="_blank">Kilometer to miles conversion</a><hr class="dash" />
+<a href="meter to inches.html" id="links"target="_blank">Meter to inches conversion</a><hr class="dash" />
+<a href="inches to centimeter.html" id="links"target="_blank">Inches to cm conversion</a><hr class="dash" />
+<a href="inches to feet.html" id="links"target="_blank">Inches to feet conversion</a><hr class="dash" />
+<a href="inches to mm.html" id="links"target="_blank">Inches to mm conversion</a><hr class="dash" />
+
+<a href="meter to feet.html" id="links"target="_blank">Meter to feet conversion</a><hr class="dash" />
+
+<a href="centimeter to feet.html" id="links"target="_blank">Cm to feet conversion</a><hr class="dash" />
+<a href="centimeter to inches.html" id="links"target="_blank">Cm to inches conversion</a><hr class="dash" />
+<a href="centimeter to mm.html" id="links"target="_blank">Cm to mm conversion</a><hr class="dash" />
+
+<a href="feet to centimeter.html" id="links"target="_blank">Feet to cm conversion</a><hr class="dash" />
+<a href="feet to mm.html" id="links"target="_blank">Feet to mm conversion</a><hr class="dash" />
+
+<a href="feet to meter.html" id="links"target="_blank">Feet to meters conversion</a><hr class="dash" />
+
+<a href="#" id="links">Height converter conversion</a><hr class="dash" />
+
+<a href="mm to centimeter.html" id="links"target="_blank">mm to cm conversion</a><hr class="dash" />
+<a href="mm to feet.html" id="links"target="_blank">mm to feet conversion</a><hr class="dash" />
+<a href="mm to inches.html" id="links"target="_blank">mm to Inches conversion</a><hr class="dash" />
+</div>
+
+<div id="bottomdiv">
+<hr>
+<form id="form2" name="form2" action="INSERT.php" method="post">
+<h1>Write how to improve this page</h1>
+<input type="text" name="name" placeholder="YOUR NAME"required><br><br><br>
+<input type="email" name="email" placeholder="your@mail.com"required><br><br><br>
+<textarea name="tea" rows="5" col="20"required></textarea><br><br><br> 
+<input type="submit" name="sub" value="submit feedback"><br><br><br>
+</form>
+</div>
+
+<div id="bottomdiv">
+<hr>
+<h2>See also</h2>
+<ul>
+<li><a id="anchordesign" href="mile into km.html">Miles to km conversion</a></li>
+<li><a id="anchordesign" href="inches to meters.html">Inches to Meters conversion</a></li>
+<li><a id="anchordesign" href="#">Inches to cm conversion</a></li>
+<li><a id="anchordesign" href="#">Inches to feet conversion</a></li>
+<li><a id="anchordesign" href="#">Inches to mm conversion</a></li>
+</ul>
+</div>
+<script>
+
+function myFunctions(){
+
+var x=document.getElementById("ft").value;
+
+var z=parseFloat(x)*12;
+
+document.getElementById("inch").value=z;
+document.getElementById("textarea").value=x+"ft x 12\n"+"="+z+"inch";
+var a=parseInt(x);
+//var b=parseInt(a);
+var b=parseFloat(x)-parseInt(a);
+var c=b*12;
+document.getElementById("y2").value=a+"ft"+c;
+
+
+}
+</script>
+
+
+
+  </body>
+
+</html>

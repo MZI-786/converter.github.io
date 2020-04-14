@@ -1,0 +1,143 @@
+.intext{ 
+background: #ffffff;
+ padding-left:3px;
+ border:1px inset #eee;
+ width:380px;
+ height:25px;
+ } 
+.math{ 
+font-family: "Times New Roman";
+ font-size: 1.6em;
+ padding-left: 6px; 
+
+}
+.mathsymbol { 
+font-family: "Times New Roman";
+font-size: 1.2em; 
+ }
+button{
+width:90px;
+margin-left:10px;
+font-size:18px;
+padding:2px;	
+}
+.outtext{
+background: #e0f0e0;
+padding-left:3px; 
+border:1px solid #ccc;
+width:380px;
+ height:20px;
+}
+.outtext1{
+background: #e0f0e0;
+padding-left:3px; 
+border:1px solid #ccc;
+}
+#form1{
+	background-color:lightgray;
+	border-radius:10px;
+	width:620px;
+}
+h1
+{
+	margin-bottom:4px;
+	padding-bottom:0px;
+	color: #333333;
+}
+
+ table.ntable { 
+ border: 1px #ccc solid;
+ border-collapse:collapse;
+ padding: 5px;
+ }
+ table.ntable th, table.ntable td 
+ {
+text-align:right;
+border:1px solid black;	 
+border: 1px #ccc solid; 
+ padding: 5px; 
+}
+ thead{
+	 background-color:gray;
+	 
+ }
+#headdiv{
+min-width:620px;
+width:100%;
+height:200px;	
+background-image:url("scale image 3.jpg");
+background-color:blue;
+border-radius:20px;
+border:solid black 2px; 
+background-repeat:repeat;
+animation: mymove 2s infinite;
+}
+@keyframes mymove {
+5% {border-left-color: red;}
+40%{border-bottom-color: red;}
+60% {border-right-color: red;}
+80%{border-top-color: red;}
+}
+#sidediv{
+background-color:rgb(255,255,221);
+border:4px rgb(241,241,207) ridge ;
+margin-right:5px;
+margin-left:5px;
+margin-top:20px;
+width:380px;
+height:700px;
+border-radius:10px;
+float:right;
+
+}
+#sidedivheadings{
+	
+	background-color:rgb(232,245,220);
+color:rgb(148,105,24);
+padding:6px;
+border-bottom:2px white outset;
+}
+#links{
+	
+color:rgb(207,149,59);
+padding-left:4px;
+
+text-decoration:none;
+
+}
+
+.dash{
+  border: 0 none;
+  border-top: 2px dashed rgb(198,171,111);
+  
+}
+#seconddiv{
+	width:900px;
+	float:left;
+	margin-left:20px;
+}
+body{
+	background-image:url("background.gif");
+}
+
+#bottomdiv{
+	float:left; 
+	clear:left;
+	width:100%;
+}
+#maindiv{
+	width:100%;
+	height:100%;
+}
+#anchordesign{
+	text-decoration:none;
+	color:black;
+	padding:10px;
+target=_blank;	
+}
+#heading{
+	position:absolute;
+	left:1;
+	top:0;
+	z-index:1;
+}

@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Miles into Kilometers</title>
+<link rel="stylesheet" href="unit converter.css">
+</head>
+<body>
+<div id="headdiv">
+<h1 id="heading">UNIT CONVERTER</h1>
+</div>
+<div id="seconddiv">
+<h1>
+Miles to Kilometers conversion
+</h1>
+<form>
+<table>
+<tr>
+<td>
+<label for="x">Enter Miles:</label>
+</td>
+<td class="math">
+<input type="number" min="0" id="kilo" name="x" class="intext" >
+</td>
+<td class="mathsymbol">mi</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td colspan="2"><button type="button" onclick="myFunctions()"><img src="convert.png">Convert</button>
+<button type="reset"><img src="cross.png">Reset</button>
+<button type="button" onclick="location.href='unit converter.html'"><img src="retweet.png">Swap</button>
+</td>
+</tr>
+<tr>
+<td >Kilometers result:</td>
+<td class="math"><input type="text" name="y" id="miles"  class="outtext" readonly></td>
+<td class="mathsymbol">km</td>
+</tr>
+<tr>
+<td>Kilometers+meters result:</td>
+<td>
+<table>
+
+<tr>
+<td class="math">
+<input type="text" id="y2" readonly class="outtext1">
+</td>
+<td class="mathsymbol">km</td>
+<td class="math">
+<input type="text" id="y3" readonly class="outtext1">
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td class="mathsymbol">m</td>
+</tr>
+<tr>
+<td>Calculation:</td>
+<td><textarea name="TA" id="textarea" rows="5" cols="52" readonly class="outtext1"></textarea></td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</form>
+<p>
+<a href="unit converter.html">km to miles &#9658;</a>
+</p>
+<h2>How to convert Miles into kilometers</h2>
+<p>1 Mile is equal to 1.609344 Kilometers:</p>
+<p class="math">1 mi = 1.609344 km</p>
+<p>The distance <em>d</em> in kilometers (km) is equl to the distance <i>d</i> in miles (mi) times 1.609344:</p>
+<p class="math"><em>d</em><sub>(km)</sub>=<em>d</em><sub>(mi)</sub>x 1.609344</p>
+<h4>Example</h4>
+<p>Convert 20 miles to kilometers:</p>
+<p class="math">
+<em>d</em><sub>(km)</sub>= 20mi x 1.609344 = 32.18688km</p>
+<h2>Miles to Kilometers conversion table</h2>
+<table class="ntable">
+<thead>
+<tr>
+<th>Miles (mi)</th>
+<th>Kilometers (km)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.01 mi</td>
+<td>0.016093 km</td>
+</tr>
+<tr>
+<td>0.1 mi</td>
+<td>0.16093 km</td>
+</tr>
+<tr>
+<td>1 mi</td>
+<td>1.6093 km</td>
+</tr>
+<tr>
+<td>2 mi</td>
+<td>3.2187 km</td>
+</tr>
+<tr>
+<td>3 mi</td>
+<td>4.8280 km</td>
+</tr>
+<tr>
+<td>4 mi</td>
+<td>6.4374 km</td>
+</tr>
+<tr>
+<td>5 mi</td>
+<td>8.0467 km</td>
+</tr>
+<tr>
+<td>6 mi</td>
+<td>3.7282</td>
+</tr>
+<tr>
+<td>7 mi</td>
+<td>11.2654 km</td>
+</tr>
+<tr>
+<td>8 mi</td>
+<td>12.8748 km</td>
+</tr>
+<tr>
+<td>9 mi</td>
+<td>14.4841 km</td>
+</tr>
+<tr>
+<td>10 mi</td>
+<td>16.0934 km</td>
+</tr>
+<tr>
+<td>20 mi</td>
+<td>32.1869 km</td>
+</tr>
+<tr>
+<td>30 mi</td>
+<td>48.2803 km</td>
+</tr>
+<tr>
+<td>40 mi</td>
+<td>64.3738 km</td>
+</tr>
+<tr>
+<td>50 mi</td>
+<td>80.4672 km</td>
+</tr>
+<tr>
+<td>60 mi</td>
+<td>96.5606 km</td>
+</tr>
+<tr>
+<td>70 mi</td>
+<td>112.6541 km</td>
+</tr>
+<tr>
+<td>80 mi</td>
+<td>128.7475 km</td>
+</tr>
+<tr>
+<td>90 mi</td>
+<td>144.8410 km</td>
+</tr>
+<tr>
+<td>100 mi</td>
+<td>160.9344 km</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>
+<a href="mile into km.html">miles to km &#9658;</a>
+</p>
+<br>
+</div>
+<div id="sidediv">
+<h4 id="sidedivheadings">CONVERSION</h4>
+<a href="unit converter.html" id="links"target="_blank">Kilometer to miles conversion</a><hr class="dash" />
+<a href="meter to inches.html" id="links"target="_blank">Meter to inches conversion</a><hr class="dash" />
+<a href="inches to centimeter.html" id="links"target="_blank">Inches to cm conversion</a><hr class="dash" />
+<a href="inches to feet.html" id="links"target="_blank">Inches to feet conversion</a><hr class="dash" />
+<a href="inches to mm.html" id="links"target="_blank">Inches to mm conversion</a><hr class="dash" />
+
+<a href="meter to feet.html" id="links"target="_blank">Meter to feet conversion</a><hr class="dash" />
+
+<a href="centimeter to feet.html" id="links"target="_blank">Cm to feet conversion</a><hr class="dash" />
+<a href="centimeter to inches.html" id="links"target="_blank">Cm to inches conversion</a><hr class="dash" />
+<a href="centimeter to mm.html" id="links"target="_blank">Cm to mm conversion</a><hr class="dash" />
+
+<a href="feet to centimeter.html" id="links"target="_blank">Feet to cm conversion</a><hr class="dash" />
+<a href="feet to mm.html" id="links"target="_blank">Feet to mm conversion</a><hr class="dash" />
+<a href="feet to inches.html" id="links"target="_blank">Feet to inches conversion</a><hr class="dash" />
+<a href="feet to meter.html" id="links"target="_blank">Feet to meters conversion</a><hr class="dash" />
+
+<a href="#" id="links">Height converter conversion</a><hr class="dash" />
+
+<a href="mm to centimeter.html" id="links"target="_blank">mm to cm conversion</a><hr class="dash" />
+<a href="mm to feet.html" id="links"target="_blank">mm to feet conversion</a><hr class="dash" />
+<a href="mm to inches.html" id="links"target="_blank">mm to Inches conversion</a><hr class="dash" />
+</div>
+
+<div id="bottomdiv">
+<hr>
+<form id="form2" name="form2" action="INSERT.php" method="post">
+<h1>Write how to improve this page</h1>
+<input type="text" name="name" placeholder="YOUR NAME"><br><br><br>
+<input type="email" name="email" placeholder="your@mail.com"><br><br><br>
+<textarea name="tea" rows="5" col="20"></textarea><br><br><br> 
+<input type="submit" name="sub" value="submit feedback"><br><br><br>
+</form>
+</div>
+
+<div id="bottomdiv">
+<hr>
+<h2>See also</h2>
+<ul>
+<li><a id="anchordesign" href="unit converter.html">Kilometer to Miles conversion</a></li>
+<li><a id="anchordesign" href="meter to inches.html">Meter to inches conversion</a></li>
+<li><a id="anchordesign" href="#">Inches to cm conversion</a></li>
+<li><a id="anchordesign" href="#">Inches to feet conversion</a></li>
+<li><a id="anchordesign" href="#">Inches to mm conversion</a></li>
+</ul>
+</div>
+<script>
+
+function myFunctions(){
+
+var x=document.getElementById("kilo").value;
+
+var z=parseFloat(x)*(1.609344);
+
+document.getElementById("miles").value=z;
+document.getElementById("textarea").value=x+"mi*1.609344\n"+"="+z+"km";
+var a=parseInt(z);
+var b;
+b=parseFloat(z)-parseInt(a);
+c=b*1000;
+document.getElementById("y2").value=a;
+document.getElementById("y3").value=c;
+
+}
+</script>
+
+
+
+  </body>
+
+</html>

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Millimeters into Inches</title>
+<link rel="stylesheet" href="unit converter.css">
+</head>
+<body>
+<div id="headdiv">
+<h1 id="heading">UNIT CONVERTER</h1>
+</div>
+<div id="seconddiv">
+<h1>
+Millimeters to Inches conversion
+</h1>
+<form>
+<table>
+
+<tr>
+<td>
+<label for="x">Enter millimeters:</label>
+</td>
+<td class="math">
+<input type="number" min="0" id="mm" name="x" class="intext" >
+</td>
+<td class="mathsymbol">mm</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td ><button type="button" onclick="myFunctions()"><img src="convert.png">Convert</button>
+<button type="reset"><img src="cross.png">Reset</button>
+<button type="button" onclick="location.href='inches to mm.html'"><img src="retweet.png">Swap</button>
+</td>
+</tr>
+<tr>
+<td>Inches decimal result:</td>
+<td  class="math">
+<input type="text" name="y" id="inch"  class="outtext" readonly></td>
+<td class="mathsymbol">in</td>
+</tr>
+<tr>
+<td>Feet+Inches result:</td>
+<td  class="math">
+<input type="text" name="f+i" id="y2"  class="outtext" readonly></td>
+<td class="mathsymbol">in</td>
+</tr>
+<tr>
+<td>Calculation:</td>
+<td><textarea name="TA" id="textarea" rows="5" cols="52" readonly class="outtext1"></textarea></td>
+<td>&nbsp;</td>
+</tr>
+
+</table>
+</form>
+<p>
+<a href="inches to mm.html">Inches to mm &#9658;</a>
+</p>
+<h2>How to convert Millimeters into Inches</h2>
+<p>1 millimeter is equal to 0.03937007874 inches:</p>
+	<p class="math">1mm = (1/25.4)in = 0.03937007874 in</p>
+	<p>The distance <em>d</em> in inches (in) is equal to the distance <i>d</i> in 
+	millimeters (mm) divided by 25.4:</p>
+	<p class="math"><em>d</em><sub>(in)</sub> = <em>d</em><sub>(mm)</sub> / 25.4 </p>
+	<h4>Example</h4>
+	<p>Convert 20 mm to inches:</p>
+	<p class="math"><em>d</em><sub>(in)</sub> = 20mm / 25.4 = 0.7874 in</p>
+	<h2><a id="table"></a>Millimeters to inches conversion table</h2>
+	<p>The fraction inches are rounded to 1/64 resolution.</p>
+	<table class="ntable">
+	<thead>
+		<tr>
+			<th>Millimeters (mm)</th>
+			<th>Inches (in)<br>(decimal)</th>
+			<th>Inches (in)<br>(fraction)</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>0.01 mm</td>
+			<td>0.0004 in</td>
+			<td>0 in</td>
+		</tr>
+		<tr>
+			<td>0.1 mm</td>
+			<td>0.0039 in</td>
+			<td>0 in</td>
+		</tr>
+		<tr>
+			<td>1 mm</td>
+			<td>0.0394 in</td>
+			<td>3/64 in</td>
+		</tr>
+		<tr>
+			<td>2 mm</td>
+			<td>0.0787 in</td>
+			<td>5/64 in</td>
+		</tr>
+		<tr>
+			<td>3 mm</td>
+			<td>0.1181 in</td>
+			<td>1/8 in</td>
+		</tr>
+		<tr>
+			<td>4 mm</td>
+			<td>0.1575 in</td>
+			<td>5/32 in</td>
+		</tr>
+		<tr>
+			<td>5 mm</td>
+			<td>0.1969 in</td>
+			<td>13/64 in</td>
+		</tr>
+		<tr>
+			<td>6 mm</td>
+			<td>0.2362 in</td>
+			<td>15/64 in</td>
+		</tr>
+		<tr>
+			<td>7 mm</td>
+			<td>0.2756 in</td>
+			<td>9/32 in</td>
+		</tr>
+		<tr>
+			<td>8 mm</td>
+			<td>0.3150 in</td>
+			<td>5/16 in</td>
+		</tr>
+		<tr>
+			<td>9 mm</td>
+			<td>0.3543 in</td>
+			<td>23/64 in</td>
+		</tr>
+		<tr>
+			<td>10 mm</td>
+			<td>0.3937 in</td>
+			<td>25/64 in</td>
+		</tr>
+		<tr>
+			<td>20 mm</td>
+			<td>0.7874 in</td>
+			<td>25/32 in</td>
+		</tr>
+		<tr>
+			<td>30 mm</td>
+			<td>1.1811 in</td>
+			<td>1 3/16 in</td>
+		</tr>
+		<tr>
+			<td>40 mm</td>
+			<td>1.5784 in</td>
+			<td>1 37/64 in</td>
+		</tr>
+		<tr>
+			<td>50 mm</td>
+			<td>1.9685 in</td>
+			<td>1 31/32 in</td>
+		</tr>
+		<tr>
+			<td>60 mm</td>
+			<td>2.3622 in</td>
+			<td>2 23/64 in</td>
+		</tr>
+		<tr>
+			<td>70 mm</td>
+			<td>2.7559 in</td>
+			<td>2 3/4 in</td>
+		</tr>
+		<tr>
+			<td>80 mm</td>
+			<td>3.1496 in</td>
+			<td>3 5/32 in</td>
+		</tr>
+		<tr>
+			<td>90 mm</td>
+			<td>3.5433 in</td>
+			<td>3 35/64 in</td>
+		</tr>
+		<tr>
+			<td>100 mm</td>
+			<td>3.9370 in</td>
+			<td>3 15/16 in</td>
+		</tr>
+	</tbody>
+	</table>
+<p>&nbsp;</p>
+<p>
+<a href="inches to mm.html">Inches to mm &#9658;</a>
+</p>
+<br>
+</div>
+<div id="sidediv">
+<h4 id="sidedivheadings">CONVERSION</h4>
+<a href="mile into km.html" id="links"target="_blank">Miles to km conversion</a><hr class="dash" />
+<a href="unit converter.html" id="links"target="_blank">Kilometer to miles conversion</a><hr class="dash" />
+<a href="meter to inches.html" id="links"target="_blank">Meter to inches conversion</a><hr class="dash" />
+<a href="inches to centimeter.html" id="links"target="_blank">Inches to cm conversion</a><hr class="dash" />
+<a href="inches to feet.html" id="links"target="_blank">Inches to feet conversion</a><hr class="dash" />
+<a href="inches to mm.html" id="links"target="_blank">Inches to mm conversion</a><hr class="dash" />
+
+<a href="meter to feet.html" id="links"target="_blank">Meter to feet conversion</a><hr class="dash" />
+
+<a href="centimeter to feet.html" id="links"target="_blank">Cm to feet conversion</a><hr class="dash" />
+<a href="centimeter to inches.html" id="links"target="_blank">Cm to inches conversion</a><hr class="dash" />
+<a href="centimeter to mm.html" id="links"target="_blank">Cm to mm conversion</a><hr class="dash" />
+
+<a href="feet to centimeter.html" id="links"target="_blank">Feet to cm conversion</a><hr class="dash" />
+<a href="feet to mm.html" id="links"target="_blank">Feet to mm conversion</a><hr class="dash" />
+<a href="feet to inches.html" id="links"target="_blank">Feet to inches conversion</a><hr class="dash" />
+<a href="feet to meter.html" id="links"target="_blank">Feet to meters conversion</a><hr class="dash" />
+
+<a href="#" id="links">Height converter conversion</a><hr class="dash" />
+
+<a href="mm to centimeter.html" id="links"target="_blank">mm to cm conversion</a><hr class="dash" />
+<a href="mm to feet.html" id="links"target="_blank">mm to feet conversion</a><hr class="dash" />
+
+</div>
+
+<div id="bottomdiv">
+<hr>
+<form id="form2" name="form2" action="INSERT.php" method="post">
+<h1>Write how to improve this page</h1>
+<input type="text" name="name" placeholder="YOUR NAME"required><br><br><br>
+<input type="email" name="email" placeholder="your@mail.com"required><br><br><br>
+<textarea name="tea" rows="5" col="20"required></textarea><br><br><br> 
+<input type="submit" name="sub" value="submit feedback"><br><br><br>
+</form>
+</div>
+
+<div id="bottomdiv">
+<hr>
+<h2>See also</h2>
+<ul>
+<li><a id="anchordesign" href="mile into km.html">Miles to km conversion</a></li>
+<li><a id="anchordesign" href="inches to meters.html">Inches to Meters conversion</a></li>
+<li><a id="anchordesign" href="#">Inches to cm conversion</a></li>
+<li><a id="anchordesign" href="#">Inches to feet conversion</a></li>
+<li><a id="anchordesign" href="#">Inches to mm conversion</a></li>
+</ul>
+</div>
+<script>
+
+function myFunctions(){
+
+var x=document.getElementById("mm").value;
+
+var z=parseInt(x)/(25.4);
+
+document.getElementById("inch").value=z;
+document.getElementById("textarea").value=x+"m/25.4\n"+"="+z+"inch";
+var a=z/12;
+var b=parseInt(a);
+var c=parseFloat(a)-parseInt(b);
+var d=c*12;
+document.getElementById("y2").value=b+"ft"+d;
+
+
+}
+</script>
+
+
+
+  </body>
+
+</html>
